@@ -58,7 +58,7 @@ layout: default
     color: 'blue'
   });
 
-  var popupContent = '<div class="popHead" class="text-center"><strong>{{ page.address }}</strong></div><div class="metadata"><strong>Host:</strong> {{ page.title }}<br /><strong>Opened:</strong> {{ page.install_date }}</div><div class="text-center"><a href="http://maps.google.com/?q={{page.latitude}},{{page.longitude}}" type="button" class="btn btn-default btn-xs">Get Directions <i class="icon-chevron-sign-right" style="color:#428bca;"></i></a></div>';
+  var popupContent = '<div class="popHead" class="text-center"><strong>{{ page.address }}</strong></div><div class="metadata"><strong>Host:</strong> {{ page.title }}<br /><strong>Opened:</strong> {{ page.install_date }}</div><div class="text-center"><a href="https://maps.google.com/?q={{page.latitude}},{{page.longitude}}" type="button" class="btn btn-default btn-xs">Get Directions <i class="icon-chevron-sign-right" style="color:#428bca;"></i></a></div>';
 
   var map = L.map('map', {scrollWheelZoom: false}).setView([ {{ page.latitude }}, {{ page.longitude }} ], 14);
 
