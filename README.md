@@ -13,7 +13,7 @@ Installation
 
 Jekyll should then serve the app locally at [http://127.0.0.1:4000/jekyllmap/](http://127.0.0.1:4000/jekyllmap/) (configurable in [`_config.yml`](/_config.yml)).
 
-Note the site is built and served from the [`_site`](/_site/) directory. To make any changes, look at the [`_layouts/`](/_layouts/), [`_includes/`](/_includes/) directories and [`_config.yml`](/_config.yml). All changes will be reflected into a newly built `_site/` static set of HTML pages.
+Note: site is served from a `_site/` directory after Jekyll builds. To make any changes, look at the [`_layouts/`](/_layouts/), [`_includes/`](/_includes/) directories and [`_config.yml`](/_config.yml). All changes will be reflected into a newly built `_site/` static set of HTML pages.
 
 Adding Locations
 -----------------
